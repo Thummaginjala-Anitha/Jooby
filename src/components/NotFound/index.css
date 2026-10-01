@@ -1,0 +1,25 @@
+.not-found-bg-container {
+  background-color: #171317;
+  min-height: 100vh;
+}
+
+.not-found-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.not-found-image {
+  width: 300px;
+}
+
+.not-found-heading {
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.not-found-description {
+  color: #7e858e;
+}

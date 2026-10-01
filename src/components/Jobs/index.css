@@ -1,0 +1,146 @@
+.jobs-bg-container {
+  background-color: #171317;
+  min-height: 100vh;
+}
+
+.jobs-content-container {
+  display: flex;
+  padding: 30px;
+}
+
+.filters-container {
+  background-color: #272727;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  margin-right: 20px;
+  height: fit-content;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.profile-image {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.profile-name {
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.profile-bio {
+  color: #7e858e;
+  text-align: center;
+  font-size: 14px;
+}
+
+.profile-failure-container {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+.retry-button {
+  background-color: #6366f1;
+  color: #ffffff;
+  border: none;
+  padding: 6px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter-heading {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.filter-list {
+  list-style-type: none;
+}
+
+.filter-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.filter-item input {
+  margin-right: 10px;
+}
+
+.jobs-section {
+  flex-grow: 1;
+}
+
+.search-container {
+  display: flex;
+  border: 1px solid #7e858e;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.search-input {
+  flex-grow: 1;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  color: #ffffff;
+  outline: none;
+}
+
+.search-button {
+  background-color: #303030;
+  border: none;
+  border-left: 1px solid #7e858e;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+.search-icon {
+  color: #ffffff;
+}
+
+.jobs-list {
+  list-style-type: none;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.no-jobs-container,
+.jobs-failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.no-jobs-image,
+.failure-image {
+  width: 300px;
+}
+
+.no-jobs-heading,
+.failure-heading {
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.no-jobs-description,
+.failure-description {
+  color: #7e858e;
+}

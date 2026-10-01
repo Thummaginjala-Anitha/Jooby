@@ -1,0 +1,86 @@
+.job-card-link {
+  text-decoration: none;
+}
+
+.job-card {
+  background-color: #272727;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
+.job-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.company-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.job-title {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.star-icon {
+  color: #fbbf24;
+  margin-right: 5px;
+}
+
+.rating {
+  color: #ffffff;
+}
+
+.job-card-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.location-type-container {
+  display: flex;
+}
+
+.location-container,
+.employment-type-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.location-icon,
+.briefcase-icon {
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.location,
+.employment-type,
+.package {
+  color: #ffffff;
+}
+
+.separator {
+  border: 0.5px solid #7e858e;
+  margin: 10px 0;
+}
+
+.description-heading {
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.job-description {
+  color: #cbd5e1;
+  font-size: 14px;
+}

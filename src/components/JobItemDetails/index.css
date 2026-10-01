@@ -1,0 +1,186 @@
+.job-details-bg-container {
+  background-color: #171317;
+  min-height: 100vh;
+}
+
+.job-details-content {
+  padding: 30px 80px;
+}
+
+.job-details-card {
+  background-color: #272727;
+  border-radius: 8px;
+  padding: 25px;
+}
+
+.job-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.company-logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
+
+.job-title {
+  color: #ffffff;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.star-icon {
+  color: #fbbf24;
+  margin-right: 5px;
+}
+
+.rating {
+  color: #ffffff;
+}
+
+.job-card-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.location-type-container {
+  display: flex;
+}
+
+.location-container,
+.employment-type-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.location-icon,
+.briefcase-icon {
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.location,
+.employment-type,
+.package {
+  color: #ffffff;
+}
+
+.separator {
+  border: 0.5px solid #7e858e;
+  margin: 15px 0;
+}
+
+.description-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description-header a {
+  color: #6366f1;
+  text-decoration: none;
+}
+
+.description-heading {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.job-description {
+  color: #cbd5e1;
+  margin-bottom: 20px;
+}
+
+.skills-heading,
+.life-heading,
+.similar-jobs-heading {
+  color: #ffffff;
+  margin: 15px 0;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  margin-bottom: 15px;
+}
+
+.skill-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.skill-name {
+  color: #ffffff;
+}
+
+.life-at-company {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.life-description {
+  color: #cbd5e1;
+  max-width: 60%;
+}
+
+.life-image {
+  width: 250px;
+}
+
+.similar-jobs-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.similar-job-item {
+  background-color: #272727;
+  border-radius: 8px;
+  padding: 20px;
+  width: 45%;
+  margin: 10px;
+}
+
+.jobs-failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.failure-image {
+  width: 300px;
+}
+
+.failure-heading {
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.failure-description {
+  color: #7e858e;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
